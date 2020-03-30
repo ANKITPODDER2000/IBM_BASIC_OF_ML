@@ -1,0 +1,114 @@
+String Operations
+LATEST SUBMISSION GRADE
+100%
+
+1.Question 1
+In Python, if you executed name = 'Lizz', what would be the output of print(name[0:2])?
+
+
+Lizz
+
+
+L
+
+
+-->Li(Ans)
+
+Correct
+Correct, we only retrieve the first two elements.
+
+1 / 1 point
+
+2.Question 2
+Consider the string A='1934567', what is the result of the following operation A[1::2]
+
+
+'1934567'
+
+
+-->'946'(Ans)
+
+
+'1357'
+
+Correct
+Correct, the first index 1 from A[1::2] corresponds to the second value, i.e. 9 . The stride value of 2 from A[1::2] selects every second element.
+
+1 / 1 point
+
+3.Question 3
+In Python, what is the result of the following operation: '1'+'2'
+
+
+3
+
+
+'3'
+
+
+-->'12'(Ans)
+
+Correct
+correct, the '+' applied to strings does not add strings but concatenates them
+
+1 / 1 point
+
+4.Question 4
+Given myvar = 'hello' , how would you return myvar as uppercase?
+
+
+len(myvar)
+
+
+myvar.find('hello')
+
+
+-->myvar.upper()  (Ans)
+
+Correct
+correct
+
+1 / 1 point
+
+5.Question 5
+Consider the string Name="Michael Jackson" , what is the result of the following operation Name.find('el')
+
+
+1
+
+
+-->5(Ans)
+
+
+-1
+
+Correct
+correct, the method finds the starting index of a substring
+
+1 / 1 point
+
+6.Question 6
+what is the result of the following : str(1)+str(1)
+
+
+-->'11'
+
+
+2
+
+Correct
+correct, the integers are cast to a string, and the strings are concatenated
+
+1 / 1 point
+
+7.Question 7
+what is the result of the following: "ABC".replace("AB", "ab")
+
+
+-->'abC'(Ans)
+
+
+'ABc'
+
+Correct
+correct, the method replace returns a copy of the string with all occurrences of the old substring
